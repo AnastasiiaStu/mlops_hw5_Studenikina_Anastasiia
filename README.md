@@ -37,7 +37,7 @@ docker-compose up -d
 
 ![alt text](scren/Fig2.png)
 
-3) Видим что вме окей
+3) Видим что все окей
 
 ![alt text](scren/Fig3.png)
 
@@ -47,6 +47,16 @@ docker-compose up -d
 
 ![alt text](scren/Fig6.png)
 
+## Загружаем на гит
+
+```
+git init
+git add .
+git commit -m " Airlflow retraining pipeline"
+git remote add origin https://github.com/....git
+git branch -M main
+git push -u origin main
+```
 ## Останавливаем контейнер
 
 ```
