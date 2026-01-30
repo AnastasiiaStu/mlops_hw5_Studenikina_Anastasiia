@@ -62,3 +62,9 @@ git push -u origin main
 ```
 docker-compose down -v
 ```
+
+## Удаляем все данные из контейнера
+
+```
+docker system prune -f
+```
